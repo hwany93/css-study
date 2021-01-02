@@ -2,7 +2,6 @@
 .app-wrapper {
  display: flex;
  flex-direction: row;
- flex-wrap: wrap;
  justify-content: space-around;
  height: 100vh;
 }
@@ -12,13 +11,18 @@
  justify-content: center;
  align-items: center;
  font-size: 20px;
- width: 200px;
+ width: 500px;
  height: 200px;
  background-color: coral;
 }
 
-.box:nth-child(10){
+.box:nth-child(2){
  color: white;
  background-color: blue;
- order: 1;
+}
+
+.box:nth-child(3){
+ color: white;
+ flex-shrink: 3;
+ background-color: darkgray;
 }
