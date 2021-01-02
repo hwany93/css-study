@@ -3,39 +3,24 @@ import "./App.css"
 function App() {
   return (
     <div className="App">
-      <div className="grid">
-        <div className="header">header</div>
-        <div className="content">content</div>
-        <div className="nav">nav</div>
-        <div className="footer">footer</div>
-        <div className="header">header</div>
-        <div className="content">content</div>
-        <div className="nav">nav</div>
-        <div className="footer">footer</div>
-        <div className="header">header</div>
-        <div className="content">content</div>
-        <div className="nav">nav</div>
-        <div className="footer">footer</div>
-        <div className="header">header</div>
-        <div className="content">content</div>
-        <div className="nav">nav</div>
-        <div className="footer">footer</div>
-        <div className="header">header</div>
-        <div className="content">content</div>
-        <div className="nav">nav</div>
-        <div className="footer">footer</div>
-        <div className="header">header</div>
-        <div className="content">content</div>
-        <div className="nav">nav</div>
-        <div className="footer">footer</div>
-        <div className="header">header</div>
-        <div className="content">content</div>
-        <div className="nav">nav</div>
-        <div className="footer">footer</div>
-        <div className="header">header</div>
-        <div className="content">content</div>
-        <div className="nav">nav</div>
-        <div className="footer">footer</div>
+      auto fit
+      <div className="grid auto-fill">
+        <div className="item">1</div>
+        <div className="item">2</div>
+        <div className="item">3</div>
+        <div className="item">4</div>
+        <div className="item">5</div>
+        <div className="item">6</div>
+      </div>
+
+      auto fill
+      <div className="grid auto-fit">
+        <div className="item">1</div>
+        <div className="item">2</div>
+        <div className="item">3</div>
+        <div className="item">4</div>
+        <div className="item">5</div>
+        <div className="item">6</div>
       </div>
     </div>
   );
