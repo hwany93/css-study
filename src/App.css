@@ -1,7 +1,7 @@
 
 .app-wrapper {
  display: flex;
- flex-direction: row;
+ flex-direction: column;
  justify-content: space-around;
  height: 100vh;
 }
@@ -11,7 +11,7 @@
  justify-content: center;
  align-items: center;
  font-size: 20px;
- width: 500px;
+ flex-basis: 10%;
  height: 200px;
  background-color: coral;
 }
@@ -26,3 +26,5 @@
  flex-shrink: 3;
  background-color: darkgray;
 }
+
+
