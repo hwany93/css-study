@@ -34,14 +34,12 @@ grid study
  */
 .grid {
  display: grid;
- grid-template:
- "header header header header" 1fr
- "content content content nav" 2fr
- "footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr
-;
  column-gap: 10px;
  row-gap: 10px;
  height: 100vh;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: repeat(4, 1fr);
+ place-items: stretch flex-end;
 }
 
 .box {
@@ -53,22 +51,17 @@ grid study
 }
 
 .header {
- grid-area: header;
  background-color: aqua;
- grid-column: span 4
 }
 
 .content {
- grid-area: content;
  background-color: coral;
 }
 
 .nav {
- grid-area: nav;
  background-color: burlywood;
 }
 
 .footer {
- grid-area: footer;
  background-color: crimson;
 }
